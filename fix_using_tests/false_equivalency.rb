@@ -11,15 +11,15 @@ def prompt_user
 end
 
 def selection(num)
-  binding.pry
+  #binding.pry
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
      return
   elsif num = 2
-  binding.pry
+  #binding.pry
      "HAM HAM HAM IN MY TUMMY"
   end
- binding.pry
+ #binding.pry
 end
 
 def runner
